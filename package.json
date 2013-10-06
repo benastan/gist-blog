@@ -1,0 +1,25 @@
+{
+  "name": "gist-blog",
+  "version": "0.0.0",
+  "description": "Turn your gists into a GitHub Pages-hosted blog",
+  "main": "build/gist-blog.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benastan/gist-blog"
+  },
+  "dependencies": {
+    "markdown": "*",
+    "mustache": "*",
+    "grunt-mustache": "*",
+    "breathe-easy": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-coffee-browser-project": "*"
+  },
+  "author": "Ben Bergstein",
+  "license": "BSD"
+}
